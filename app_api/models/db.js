@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var gracefulShutdown;
-var dbURI = 'mongodb://localhost/RealisticProfiler';
+var dbURI = 'mongodb://profileruser:abcd1234@ds123370.mlab.com:23370/heroku_jsgfv3wj';
 if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGOLAB_URI;
 }
