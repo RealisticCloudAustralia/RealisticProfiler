@@ -5,6 +5,10 @@ if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGOLAB_URI;
 }
 
+console.log('ENV ' + process.env.NODE_ENV);
+console.log('ENVURI ' + process.env.MONGOLAB_URI);
+console.log('DBURI ' + dbURI);
+
 mongoose.connect(dbURI);
 
 // CONNECTION EVENTS
