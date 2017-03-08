@@ -1,5 +1,5 @@
 {
-  "name": "MEAN-stack-authentication",
+  "name": "realistic-profiler",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -27,5 +27,17 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
     "gulp-watch": "^4.3.4"
-  }
+  },
+  "description": "Realistic Profiler",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealisticCloudAustralia/RealisticProfiler.git"
+  },
+  "author": "Realistic Cloud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RealisticCloudAustralia/RealisticProfiler/issues"
+  },
+  "homepage": "https://github.com/RealisticCloudAustralia/RealisticProfiler#readme"
 }
